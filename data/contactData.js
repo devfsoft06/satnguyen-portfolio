@@ -16,7 +16,7 @@ export const contactData = [
     iconClass: "fa-regular fa-envelope-open-text",
     text: {
       label: "Email",
-      value: "info@techfee.vn",
+      value: "devfsoft06@gmail.com",
     },
   },
   {

@@ -4,7 +4,7 @@ export const education = [
     bgClass: "bg-prink",
     session: "2013-2017",
     cardTitle: "Control and Automation Engineering",
-    cardSubtitleSecondary: "University,",
+    cardSubtitleSecondary: "University",
     locatopn: "Can Tho University",
   },
   {
@@ -20,7 +20,7 @@ export const education = [
     bgClass: "bg-prink",
     session: "2016",
     cardTitle: "Vietnam Conference on Mechatronics - VCM",
-    cardSubtitleSecondary: "Honors & Awards,",
+    cardSubtitleSecondary: "Honors & Awards",
     locatopn: "Can Tho University",
   },
 ];

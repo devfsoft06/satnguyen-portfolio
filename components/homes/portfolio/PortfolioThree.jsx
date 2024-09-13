@@ -23,9 +23,9 @@ export default function PortfolioThree() {
   }, [activeTab]);
   return (
     <>
-      <div className="bostami-page-content-wrap">
+      <div className="techfee-page-content-wrap">
         <div className="section-wrapper pl-60 pr-60 pt-60">
-          <div className="bostami-page-title-wrap mb-15">
+          <div className="techfee-page-title-wrap mb-15">
             <h2 className="page-title">Portfolio</h2>
           </div>
         </div>
@@ -105,7 +105,7 @@ export default function PortfolioThree() {
         </div>
 
         <div className="footer-copyright text-center bg-light-white-2 pt-25 pb-25">
-          <span>© {new Date().getFullYear()} All Rights Reserved by FeeDev.</span>
+          <span>© {new Date().getFullYear()} All Rights Reserved by Sat Nguyen.</span>
         </div>
       </div>
       <Modal setShowModal={setShowModal} showModal={showModal} modalContent={modalContent} />

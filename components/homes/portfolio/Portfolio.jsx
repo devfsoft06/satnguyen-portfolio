@@ -24,9 +24,9 @@ export default function Portfolio() {
   return (
     <>
       <div className="col-xxl-8 col-xl-9">
-        <div className="bostami-page-content-wrap">
+        <div className="techfee-page-content-wrap">
           <div className="section-wrapper pl-60 pr-60 pt-60">
-            <div className="bostami-page-title-wrap mb-15">
+            <div className="techfee-page-title-wrap mb-15">
               <h2 className="page-title">Portfolio</h2>
             </div>
           </div>
@@ -109,7 +109,7 @@ export default function Portfolio() {
           </div>
 
           <div className="footer-copyright text-center bg-light-white-2 pt-25 pb-25">
-            <span>© {new Date().getFullYear()} All Rights Reserved by FeeDev.</span>
+            <span>© {new Date().getFullYear()} All Rights Reserved by Sat Nguyen.</span>
           </div>
         </div>
       </div>

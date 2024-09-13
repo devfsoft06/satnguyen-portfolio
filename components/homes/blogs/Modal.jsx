@@ -74,53 +74,13 @@ export default function Modal({ setShowModal, showModal, modalContent }) {
                   <p key={i}>{elm}</p>
                 ))}
               </div>
-
-              <div className="h1-modal-comment-item">
-                <div className="img">
-                  <Image
-                    width={125}
-                    height={152}
-                    src="/assets/img/parsonal-info/parson-img-2.png"
-                    alt="comment"
-                  />
-                </div>
-                <div className="content">
-                  <div className="name-date">
-                    <h5 className="name">Rafia Ana</h5>
-                    <span className="date">15 min ago</span>
-                  </div>
-                  <p className="comment-text">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Sequi nam ad, unde vel aut soluta atque consequatur. Omnis,
-                    debitis nihil?
-                  </p>
-                  <a className="reply-btn" href="#">
-                    Reply
-                  </a>
-                </div>
-              </div>
-
-              <div className="h1-modal-comment-box">
-                <h2 className="title">Leave a Reply</h2>
-                <textarea
-                  cols="30"
-                  rows="10"
-                  placeholder="write comment"
-                ></textarea>
-                <button>comment</button>
-              </div>
             </div>
           </div>
         </div>
       </div>
       {showModal && (
         <div className="modal-header ">
-          <button
-            type="button"
-            className="close"
-            data-bs-dismiss="modal"
-            onClick={() => setShowModal(false)}
-          >
+          <button type="button" className="close" data-bs-dismiss="modal" onClick={() => setShowModal(false)}>
             <i className="far fa-times"></i>
           </button>
         </div>

@@ -7,11 +7,10 @@ import Link from "next/link";
 
 export default function HeaderThree() {
   const pathname = usePathname();
- 
 
   return (
     <div className="text-right">
-      <div className="bostami-main-menu-wrap">
+      <div className="techfee-main-menu-wrap">
         <nav className="bastami-main-menu main_menu_3">
           <ul>
             {menuItemsThree.map((elm, i) => (

@@ -4,15 +4,15 @@ export const portfolioData = [
     class: "isotop-item logo",
     bgClass: "bg-prink",
     imgSrc: "/assets/img/work/work-img-1.png",
-    subtitle: "Travel Landing , UX/UI",
-    title: "Chul urina",
+    subtitle: "Project leader",
+    title: "Hakgok Browser",
     target: "#portfolio-1",
-    category: ["Logo"],
-    project: "website",
-    languages: ["Photoshop", "Figma"],
-    client: "Envato",
+    category: ["Platform"],
+    project: "Product",
+    languages: ["C++", "Python", "NextJs", "NodeJs", "Redis", "MongoDB", "Javascript", "Java"],
+    client: "Hahalolo",
     previewLink: "#",
-    previewName: "www.envato.com",
+    previewName: "www.hakgok.com",
     desc: [
       `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
       consequatur delectus porro sapiente molestias, magni quasi sed, enim
@@ -37,15 +37,15 @@ export const portfolioData = [
     class: "isotop-item design mockup",
     bgClass: "bg-catkrill",
     imgSrc: "/assets/img/work/work-img-2.png",
-    subtitle: "Travel Landing , UX/UI",
-    title: "Aura Dione",
+    subtitle: "Project leader",
+    title: "Hakgok Website App",
     target: "#portfolio-1",
-    category: ["Mockup", "Graphic Design"],
-    project: "website",
-    languages: ["Photoshop", "Figma"],
-    client: "Envato",
+    category: ["Platform", "Front-end"],
+    project: "Web App",
+    languages: ["NextJs", "Javascript", "CSS"],
+    client: "Hahalolo",
     previewLink: "#",
-    previewName: "www.envato.com",
+    previewName: "www.hakgok.com",
     desc: [
       `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
       consequatur delectus porro sapiente molestias, magni quasi sed, enim
@@ -70,15 +70,15 @@ export const portfolioData = [
     class: "isotop-item logo mockup",
     bgClass: "bg-catkrill",
     imgSrc: "/assets/img/work/work-img-3.png",
-    subtitle: "Travel Landing , UX/UI",
-    title: "T-Shirt Design",
+    subtitle: "Project leader",
+    title: "Hakgok Mobile App",
     target: "#portfolio-1",
-    category: ["Mockup", "Logo"],
-    project: "website",
-    languages: ["Photoshop", "Figma"],
-    client: "Envato",
+    category: ["Platform", "Mobile App"],
+    project: "Mobile App",
+    languages: ["Java", "Swift"],
+    client: "Hahalolo",
     previewLink: "#",
-    previewName: "www.envato.com",
+    previewName: "www.hakgok.com",
     desc: [
       `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
       consequatur delectus porro sapiente molestias, magni quasi sed, enim
@@ -103,15 +103,15 @@ export const portfolioData = [
     class: "isotop-item mockup",
     bgClass: "bg-prink",
     imgSrc: "/assets/img/work/work-img-4.png",
-    subtitle: "Travel Landing , UX/UI",
-    title: "Packaging Box",
+    subtitle: "Back-end Development",
+    title: "Hakgok APIs",
     target: "#portfolio-1",
-    category: ["Mockup"],
-    project: "website",
-    languages: ["Photoshop", "Figma"],
-    client: "Envato",
+    category: ["Platform", "Back-end"],
+    project: "Back-end",
+    languages: ["NodeJs", "ExpressJs", "MonogDB", "Redis"],
+    client: "Hahalolo",
     previewLink: "#",
-    previewName: "www.envato.com",
+    previewName: "www.hakgok.com",
     desc: [
       `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
       consequatur delectus porro sapiente molestias, magni quasi sed, enim
@@ -136,15 +136,15 @@ export const portfolioData = [
     class: "isotop-item design logo",
     bgClass: "bg-prink",
     imgSrc: "/assets/img/work/work-img-5.png",
-    subtitle: "Travel Landing , UX/UI",
-    title: "Modern Bag Design",
+    subtitle: "App Development",
+    title: "Printing App",
     target: "#portfolio-1",
-    category: ["Logo", "Graphic Design"],
-    project: "website",
-    languages: ["Photoshop", "Figma"],
-    client: "Envato",
+    category: ["Mobile App"],
+    project: "Mobile App",
+    languages: ["React Native", "Java", "Javascript"],
+    client: "MYLAN GROUP",
     previewLink: "#",
-    previewName: "www.envato.com",
+    previewName: "www.mylangroup.com",
     desc: [
       `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
       consequatur delectus porro sapiente molestias, magni quasi sed, enim
@@ -169,15 +169,48 @@ export const portfolioData = [
     class: "isotop-item mockup design",
     bgClass: "bg-catkrill",
     imgSrc: "/assets/img/work/work-img-6.png",
-    subtitle: "Travel Landing , UX/UI",
-    title: "Chul urina",
+    subtitle: "Back-end Development",
+    title: "Printing APIs",
     target: "#portfolio-1",
-    category: ["Mockup", "Graphic Design"],
-    project: "website",
-    languages: ["Photoshop", "Figma"],
-    client: "Envato",
+    category: ["Back-end"],
+    project: "Back-end",
+    languages: ["NodeJs", "Javascript", "MongoDB"],
+    client: "MYLAN GROUP",
     previewLink: "#",
-    previewName: "www.envato.com",
+    previewName: "www.mylangroup.com",
+    desc: [
+      `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
+      consequatur delectus porro sapiente molestias, magni quasi sed, enim
+      corporis omnis doloremque soluta inventore dolorum conseqr quo
+      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
+      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
+      magni quasi sed, enim corporis omnis doloremque soluta inventore
+      dolorum consequuntur quo obcaecati rerum sit non.`,
+
+      ` Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
+      consequatur delectus porro sapiente molestias, magni quasi sed, enim
+      corporis omnis doloremque soluta inventore dolorum consetur quo
+      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
+      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
+      magni quasi sed, sit amet consectetur adipisicing elit. Fuga
+      consequatur delectus porro sapiente molestias, magni quasi sed, enim
+      corporis omnis doloremque soluta inventore dolorum consequuntur.`,
+    ],
+  },
+  {
+    id: 7,
+    class: "isotop-item mockup design",
+    bgClass: "bg-catkrill",
+    imgSrc: "/assets/img/work/work-img-6.png",
+    subtitle: "Front-end Development",
+    title: "Printing Web App",
+    target: "#portfolio-1",
+    category: ["Front-end"],
+    project: "Web App",
+    languages: ["HTML", "CSS", "Javascript", "jQuery", "Bootstrap"],
+    client: "RYNAN Technologies SJC",
+    previewLink: "#",
+    previewName: "www.rynantech.com",
     desc: [
       `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
       consequatur delectus porro sapiente molestias, magni quasi sed, enim
@@ -207,14 +240,14 @@ export const filterButtons = [
   },
   {
     id: 2,
-    text: "Mockup",
+    text: "Front-end",
   },
   {
     id: 3,
-    text: "Graphic Design",
+    text: "Back-end",
   },
   {
     id: 4,
-    text: "Logo",
+    text: "Mobile App",
   },
 ];

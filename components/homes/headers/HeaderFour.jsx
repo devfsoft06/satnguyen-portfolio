@@ -47,12 +47,12 @@ export default function HeaderFour() {
     }
   }, []);
   return (
-    <div className="bostami-header-area mb-30 z-index-5">
+    <div className="techfee-header-area mb-30 z-index-5">
       <div className="container">
-        <div className="bostami-header-wrap">
+        <div className="techfee-header-wrap">
           <div className="row">
             <div className="col-6">
-              <div className="bostami-header-logo">
+              <div className="techfee-header-logo">
                 {/* <Link className="site-logo" href="/">
                   <Image
                     width={153}
@@ -65,7 +65,7 @@ export default function HeaderFour() {
             </div>
 
             <div className="col-6">
-              <div className="bostami-header-menu-btn text-right mb-0">
+              <div className="techfee-header-menu-btn text-right mb-0">
                 <div className="dark-btn mode-btn" onClick={handleDarkmode}>
                   {darkMode ? (
                     <i className="sunicon fa-light fa-sun-bright"></i>

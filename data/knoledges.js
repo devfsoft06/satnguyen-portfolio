@@ -1,12 +1,16 @@
 export const knoledges = [
-  "Javascript",
-  "NodeJs",
   "ReactJs",
   "NextJs",
+  "Javascript",
   "React Native",
+  "Expo",
   "ElectronJs",
+  "NodeJs",
   "Redis",
   "MongoDB",
   "CI/CD",
+  "Git",
   "Linux",
+  "Ngixn",
+  "HTML/CSS",
 ];

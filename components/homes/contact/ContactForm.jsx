@@ -8,8 +8,6 @@ export default function ContactForm() {
   const [activeInputBoxes, setActiveInputBoxes] = useState([]);
   const form = useRef();
 
-  // use Email js for recive message
-
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs.sendForm("service_n4mkhz9", "template_ugoztxr", form.current, "user_vYmDSd9PwIuRXUQEDjYwN").then(

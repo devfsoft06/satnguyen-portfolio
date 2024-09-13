@@ -4,7 +4,7 @@ export const items = [
     icon: "/assets/img/design.svg",
     title: "Software Skills",
     description:
-      "With experience working on many different platforms and positions, I feel that I will provide the best technology solutions that contribute to your company's software development.",
+      "With diverse working experience on many different platforms and positions, I am confident that I will bring optimal technology solutions, actively contributing to the company's software development process.",
     bg: "bg-prink",
   },
   {
@@ -12,7 +12,7 @@ export const items = [
     icon: "/assets/img/app-development.svg",
     title: "Experience in IOTs",
     description:
-      "I have a university degree specializing in automation and research that has been recognized through relevant organizations.",
+      "I have a university degree in automation, along with research that has been recognized by relevant organizations. This knowledge is the foundation that helps me create effective technology solutions.",
     bg: "bg-catkrill",
   },
   {
@@ -20,7 +20,7 @@ export const items = [
     icon: "/assets/img/photograph.svg",
     title: "Work Style",
     description:
-      "I really like the saying “Work smarter than the smarties and tougher than the toughest” and I'm developing according to the above saying.",
+      "I really like the saying “Work smarter than the smarties and tougher than the toughest” and always develop myself based on this philosophy.",
     bg: "bg-catkrill",
   },
   {
@@ -28,15 +28,15 @@ export const items = [
     icon: "/assets/img/webdev.svg",
     title: "Creativity",
     description:
-      "I often research and learn new things not only at work but also in my personal life. That helps me always look at problems from more perspectives.",
+      "I constantly research and learn new things, not only in work but also in my personal life. This helps me to be able to look at problems from many different perspectives.",
     bg: "bg-prink",
   },
   {
     id: 5,
     icon: "/assets/img/webdev.svg",
-    title: "Photography",
+    title: "Tool",
     description:
-      "In the past I used to be involved in amateur photography. So I will be able to contribute this sideline aspect to company events.",
+      "Previously, I had experience in amateur photography. Thanks to that, I can contribute to company events with a creative perspective from this hobby.",
     bg: "bg-prink",
   },
   {
@@ -44,7 +44,7 @@ export const items = [
     icon: "/assets/img/webdev.svg",
     title: "Business",
     description:
-      "My small passion is business, I regularly research better business solutions and trends. I think I can contribute product development ideas from a business perspective.",
+      "My little passion is business, I often research new business solutions and trends. I believe that I can contribute product development ideas from a business perspective.",
     bg: "bg-prink",
   },
 ];
