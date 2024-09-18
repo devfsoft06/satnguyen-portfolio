@@ -1,16 +1,10 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
-
-import { items } from "@/data/jobFeatures";
+import React from "react";
 import { bioData } from "@/data/bioData";
-import Image from "next/image";
+import { items } from "@/data/jobFeatures";
 
 export default function AboutOne() {
-  const [showSlider, setShowSlider] = useState(false);
-  useEffect(() => {
-    setShowSlider(true);
-  }, []);
   return (
     <div className="col-xxl-8 col-xl-9">
       <div className="techfee-page-content-wrap">
@@ -21,26 +15,15 @@ export default function AboutOne() {
             <p>{bioData.descTwo}</p>
           </div>
         </div>
-
         <div className="section-wrapper pl-60 pr-60">
           <div className="techfee-section-title-wrap mb-30">
             <h3 className="section-title">What I Do</h3>
           </div>
-
           <div className="techfee-what-do-wrap mb-30">
             <div className="row">
               {items.slice(0, 6).map((elm, i) => (
                 <div key={i} className="col-xxl-6 col-xl-6 col-lg-6">
                   <div className={`techfee-what-do-item ${elm.bg} `}>
-                    <div className="icon" style={{ margin: "0 auto" }}>
-                      <Image
-                        height={40}
-                        width={130}
-                        style={{ margin: "0 auto" }}
-                        src={elm.icon}
-                        alt="feature"
-                      />
-                    </div>
                     <div className="text">
                       <h4 className="title">{elm.title}</h4>
                       <p>{elm.description}</p>
@@ -51,7 +34,6 @@ export default function AboutOne() {
             </div>
           </div>
         </div>
-
         <div className="footer-copyright text-center pt-25 pb-25">
           <span>© {new Date().getFullYear()} All Rights Reserved by Sat Nguyen.</span>
         </div>

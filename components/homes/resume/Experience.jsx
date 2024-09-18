@@ -1,15 +1,11 @@
 import { experiences } from "@/data/experience";
-import Image from "next/image";
 import React from "react";
 
 export default function Experience() {
   return (
     <div className="col-xl-6 col-lg-5">
       <div className="techfee-section-title-wrap mb-20">
-        <h4 className="section-title">
-          <Image width={30} height={27} src="/assets/img/icon/exper-icon.png" alt="experience" />
-          Experience
-        </h4>
+        <h4 className="section-title">Experience</h4>
       </div>
 
       {experiences.map((elm, i) => (

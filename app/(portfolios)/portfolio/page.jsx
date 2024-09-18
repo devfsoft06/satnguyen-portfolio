@@ -5,10 +5,12 @@ import PersonalInfo from "@/components/homes/personalInfo/PersonalInfo";
 import Portfolio from "@/components/homes/portfolio/Portfolio";
 
 import React from "react";
+
 export const metadata = {
-  title: "Portfolio-1 || TechFee - Professional portfolio NextJS Template",
+  title: "Portfolio-1 || Sat Nguyen - Software Engineer",
   description: "Discover Botami,the most impressive portfolio template for work showcase, blog",
 };
+
 export default function page() {
   return (
     <>

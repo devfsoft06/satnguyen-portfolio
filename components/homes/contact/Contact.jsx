@@ -5,7 +5,7 @@ export default function Contact() {
       <div className="techfee-page-content-wrap">
         <div className="section-wrapper pl-60 pr-60 pt-60">
           <div className="techfee-page-title-wrap mb-15">
-            <h2 className="page-title">contact</h2>
+            <h2 className="page-title">Contact</h2>
           </div>
         </div>
 

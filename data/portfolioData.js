@@ -3,7 +3,7 @@ export const portfolioData = [
     id: 1,
     class: "isotop-item logo",
     bgClass: "bg-prink",
-    imgSrc: "/assets/img/work/work-img-1.png",
+    imgSrc: "/assets/img/work/1.png",
     subtitle: "Project leader",
     title: "Hakgok Browser",
     target: "#portfolio-1",
@@ -14,29 +14,14 @@ export const portfolioData = [
     previewLink: "#",
     previewName: "www.hakgok.com",
     desc: [
-      `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum conseqr quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, enim corporis omnis doloremque soluta inventore
-      dolorum consequuntur quo obcaecati rerum sit non.`,
-
-      ` Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consetur quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consequuntur.`,
+      `Lead research and development of Chromium-based browser projects for mobile and desktop platforms.`,
     ],
   },
   {
     id: 2,
     class: "isotop-item design mockup",
     bgClass: "bg-catkrill",
-    imgSrc: "/assets/img/work/work-img-2.png",
+    imgSrc: "/assets/img/work/2.png",
     subtitle: "Project leader",
     title: "Hakgok Website App",
     target: "#portfolio-1",
@@ -47,29 +32,14 @@ export const portfolioData = [
     previewLink: "#",
     previewName: "www.hakgok.com",
     desc: [
-      `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum conseqr quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, enim corporis omnis doloremque soluta inventore
-      dolorum consequuntur quo obcaecati rerum sit non.`,
-
-      ` Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consetur quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consequuntur.`,
+      `Lead research and development of Chromium-based browser projects for mobile and desktop platforms.`,
     ],
   },
   {
     id: 3,
     class: "isotop-item logo mockup",
     bgClass: "bg-catkrill",
-    imgSrc: "/assets/img/work/work-img-3.png",
+    imgSrc: "/assets/img/work/3.png",
     subtitle: "Project leader",
     title: "Hakgok Mobile App",
     target: "#portfolio-1",
@@ -80,29 +50,14 @@ export const portfolioData = [
     previewLink: "#",
     previewName: "www.hakgok.com",
     desc: [
-      `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum conseqr quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, enim corporis omnis doloremque soluta inventore
-      dolorum consequuntur quo obcaecati rerum sit non.`,
-
-      ` Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consetur quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consequuntur.`,
+      `Lead research and development of Chromium-based browser projects for mobile and desktop platforms.`,
     ],
   },
   {
     id: 4,
     class: "isotop-item mockup",
     bgClass: "bg-prink",
-    imgSrc: "/assets/img/work/work-img-4.png",
+    imgSrc: "/assets/img/work/4.png",
     subtitle: "Back-end Development",
     title: "Hakgok APIs",
     target: "#portfolio-1",
@@ -113,29 +68,14 @@ export const portfolioData = [
     previewLink: "#",
     previewName: "www.hakgok.com",
     desc: [
-      `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum conseqr quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, enim corporis omnis doloremque soluta inventore
-      dolorum consequuntur quo obcaecati rerum sit non.`,
-
-      ` Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consetur quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consequuntur.`,
+      `Lead research and development of Chromium-based browser projects for mobile and desktop platforms.`,
     ],
   },
   {
     id: 5,
     class: "isotop-item design logo",
     bgClass: "bg-prink",
-    imgSrc: "/assets/img/work/work-img-5.png",
+    imgSrc: "/assets/img/work/5.png",
     subtitle: "App Development",
     title: "Printing App",
     target: "#portfolio-1",
@@ -146,29 +86,14 @@ export const portfolioData = [
     previewLink: "#",
     previewName: "www.mylangroup.com",
     desc: [
-      `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum conseqr quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, enim corporis omnis doloremque soluta inventore
-      dolorum consequuntur quo obcaecati rerum sit non.`,
-
-      ` Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consetur quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consequuntur.`,
+      `Manage printer system as an app developer, conducting research, developing new features, and ensuring smooth operation.`,
     ],
   },
   {
     id: 6,
     class: "isotop-item mockup design",
     bgClass: "bg-catkrill",
-    imgSrc: "/assets/img/work/work-img-6.png",
+    imgSrc: "/assets/img/work/6.png",
     subtitle: "Back-end Development",
     title: "Printing APIs",
     target: "#portfolio-1",
@@ -179,29 +104,14 @@ export const portfolioData = [
     previewLink: "#",
     previewName: "www.mylangroup.com",
     desc: [
-      `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum conseqr quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, enim corporis omnis doloremque soluta inventore
-      dolorum consequuntur quo obcaecati rerum sit non.`,
-
-      ` Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consetur quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consequuntur.`,
+      `Manage printer system as an app developer, conducting research, developing new features, and ensuring smooth operation.`,
     ],
   },
   {
     id: 7,
     class: "isotop-item mockup design",
     bgClass: "bg-catkrill",
-    imgSrc: "/assets/img/work/work-img-6.png",
+    imgSrc: "/assets/img/work/6.png",
     subtitle: "Front-end Development",
     title: "Printing Web App",
     target: "#portfolio-1",
@@ -212,22 +122,8 @@ export const portfolioData = [
     previewLink: "#",
     previewName: "www.rynantech.com",
     desc: [
-      `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum conseqr quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, enim corporis omnis doloremque soluta inventore
-      dolorum consequuntur quo obcaecati rerum sit non.`,
-
-      ` Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consetur quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consequuntur.`,
+      `Improve website usability by fixing UI errors through research and development. 
+      Design printer systems with APIs for seamless peripheral device connectivity and user interface.`,
     ],
   },
 ];

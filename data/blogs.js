@@ -1,7 +1,7 @@
 export const blogData = [
   {
     id: 1,
-    imgSrc: "/assets/img/blog/blog-img-1.png",
+    imgSrc: "/assets/img/blog/1.jpg",
     bgClass: "bg-prink",
     date: "27 April",
     category: "Sat Nguyen",
@@ -16,7 +16,7 @@ export const blogData = [
   },
   {
     id: 2,
-    imgSrc: "/assets/img/blog/blog-img-2.png",
+    imgSrc: "/assets/img/blog/2.png",
     bgClass: "bg-catkrill",
     date: "06 October",
     category: "Sat Nguyen",
@@ -31,7 +31,7 @@ export const blogData = [
   },
   {
     id: 3,
-    imgSrc: "/assets/img/blog/blog-img-3.png",
+    imgSrc: "/assets/img/blog/3.png",
     bgClass: "bg-catkrill",
     date: "12 March",
     category: "Sat Nguyen",
@@ -46,7 +46,7 @@ export const blogData = [
   },
   {
     id: 4,
-    imgSrc: "/assets/img/blog/blog-img-4.png",
+    imgSrc: "/assets/img/blog/4.png",
     bgClass: "bg-prink",
     date: "15 November",
     category: "Sat Nguyen",
@@ -61,7 +61,7 @@ export const blogData = [
   },
   {
     id: 5,
-    imgSrc: "/assets/img/blog/blog-img-1.png",
+    imgSrc: "/assets/img/blog/5.jpg",
     bgClass: "bg-prink",
     date: "27 April",
     category: "Sat Nguyen",
@@ -76,7 +76,7 @@ export const blogData = [
   },
   {
     id: 6,
-    imgSrc: "/assets/img/blog/blog-img-2.png",
+    imgSrc: "/assets/img/blog/6.png",
     bgClass: "bg-catkrill",
     date: "06 October",
     category: "Sat Nguyen",

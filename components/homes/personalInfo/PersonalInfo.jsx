@@ -43,11 +43,11 @@ export default function PersonalInfo() {
           </div>
 
           <div className="techfee-parsonal-info-btn">
-            <a className="btn-1" href="/cv.pdf" download>
+            <a className="btn-1" href="/CV_SatV.Nguyen_ProjectLeader.pdf" download>
               <span style={{ color: "#fff" }} className="icon">
                 <i className="fa-regular fa-download"></i>
               </span>
-              download cv
+              Download CV
             </a>
           </div>
         </div>

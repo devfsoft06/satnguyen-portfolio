@@ -3,9 +3,9 @@
 ************
 *************************
 
-Template Name: TechFee - Personal Portfolio Template
-Description: TechFee – HTML Personal Portfolio Template can be used for many purposes. It’s a creative, minimal and clean design.It’s suitable for Designer, Developer, Specialist, Content Writer, Instructor, Photographer, Freelancer, Software Engineer, Teacher or others expert who Show their professional projects and services in digital way. It’s 100% responsive and Ultra Super Fast beacause it’s made with Latest html
-Author: TechFee
+Template Name: Sat Nguyen - Personal Portfolio Template
+Description: Sat Nguyen – HTML Personal Portfolio Template can be used for many purposes. It’s a creative, minimal and clean design.It’s suitable for Designer, Developer, Specialist, Content Writer, Instructor, Photographer, Freelancer, Software Engineer, Teacher or others expert who Show their professional projects and services in digital way. It’s 100% responsive and Ultra Super Fast beacause it’s made with Latest html
+Author: Sat Nguyen
 Version: 1.0
 
 -----------------------------------------------------------------------------------
@@ -38,11 +38,12 @@ CSS INDEX
 *************************************************************** */
 @import url("https://fonts.googleapis.com/css2?family=Chakra Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap");
 :root {
+
+  
   --common-white: #ffffff;
   --common-white-two: #ffffff;
   --common-black: #000;
-  --theme-primary: #66B200;
-  --theme-secondary: #66B200;
+  
   --body-text: #44566c;
   --body-heading: #000;
   --heading-black: #0A3F2D;
@@ -50,6 +51,56 @@ CSS INDEX
   --light-white-2: #f8fbfb;
   --prink: #fff4f4;
   --catkrill: #f7f8ec ;
+
+
+  --theme-primary: #66B200;
+  --theme-secondary: #2E7D32;
+
+
+
+
+  --primary-color-1: #2E7D32;  /* Màu Chủ Đạo 1 */
+  --primary-1-darkest: #1B461E;
+  --primary-1-dark: #245B26;
+  --primary-1-base: #2E7D32;
+  --primary-1-light: #51A154;
+  --primary-1-lightest: #7BCB7E;
+
+
+  --primary-color-2: #66B200;  /* Màu Chủ Đạo 2 */
+  --primary-2-darkest: #417700;
+  --primary-2-dark: #538E00;
+  --primary-2-base: #66B200;
+  --primary-2-light: #88D132;
+  --primary-2-lightest: #A9EB66;
+
+
+  --content-color: #0A3F2D;    /* Màu Nội Dung */
+  --accent-color: #F5F5F5;     /* Màu Nhấn */
+
+  --highlight-color: #FF6F00;  /* Màu Nổi Bật */
+  --highlight-darkest: #CC5800;
+  --highlight-dark: #E66000;
+  --highlight-base: #FF6F00;
+  --highlight-light: #FF9140;
+  --highlight-lightest: #FFB773;
+
+
+  --white-color: #ffff;
+  --gradient1: linear-gradient(45deg, var(--primary-color-1), var(--primary-color-2));
+  --gradient2: linear-gradient(90deg, var(--primary-color-1), var(--highlight-color));
+  --gradient3: linear-gradient(120deg, var(--content-color), var(--primary-color-2));
+  --gradient4: linear-gradient(180deg, var(--accent-color), var(--highlight-color));
+  --gradient5: linear-gradient(60deg, var(--content-color), var(--primary-color-1), var(--highlight-color));
+  --btn-background-color1: #2E7D32;
+  --btn-hover-color1: #4E9F52;
+  --btn-active-color1: #1E5522;
+  --btn-background-color2: var(--primary-color-2);
+  --btn-hover-color2: #82CC33;
+  --btn-active-color2: #4D8600;
+  --btn-background-color3: var(--highlight-color);
+  --btn-hover-color3: #FF9433;
+  --btn-active-color3: #CC5800;
 }
 
 :root .dark-theme {
@@ -65,6 +116,7 @@ CSS INDEX
   --prink: #fff4f4;
   --catkrill: #f7f8ec;
 }
+
 
 body {
   font-family: "Chakra Petch", sans-serif;
@@ -139,7 +191,7 @@ h4,
 h5,
 h6 {
   font-family: "Chakra Petch", sans-serif;
-  color: var(--body-heading);
+  color: var(--theme-primary);
   margin-top: 0px;
   line-height: 1.5;
   font-weight: 700;
@@ -1804,16 +1856,15 @@ textarea:focus::placeholder {
   transition: 0.3s;
 }
 .btn-1:focus {
-  color: var(--common-white-two);
+  color: var(--highlight-color);
 }
 .btn-1:hover {
-  background-color: var(--light-white);
-  border: 1px solid var(--theme-primary);
-  color: var(--common-black);
+  background-color: var(--highlight-color);
+  color: var(--common-white);
 }
 
 .btn-1:hover .icon {
-  color: var(--common-black) !important;
+  color: var(--common-white) !important;
 }
 
 .btn-2 {
@@ -1825,7 +1876,7 @@ textarea:focus::placeholder {
   background: linear-gradient(
     97deg,
    var(--theme-primary) 0%,
-    #2E7D32 100%
+    var(--theme-secondary) 100%
   );
   line-height: 27px;
   padding: 12px 30px;
@@ -1842,9 +1893,9 @@ textarea:focus::placeholder {
 }
 .btn-2:hover,
 .btn-2:focus {
-  background: linear-gradient(80deg, #66B200 0%, #e12a72 100%);
+  background: linear-gradient(80deg, var(--theme-primary) 0%, #e12a72 100%);
   border: 1px solid
-    linear-gradient(97deg, rgb(201, 93, 93) 0%, #2E7D32 100%);
+    linear-gradient(97deg, rgb(201, 93, 93) 0%, var(--theme-secondary) 100%);
   color: var(--light-white);
   transform: translateY(-2px);
 }
@@ -1864,7 +1915,7 @@ textarea:focus::placeholder {
   margin-right: 10px;
 }
 .dark-btn:hover {
-  background-color: var(--theme-secondary);
+  background-color: var(--theme-primary)
 }
 
 .home-3 .dark-btn {
@@ -1875,15 +1926,14 @@ textarea:focus::placeholder {
 }
 
 .home-1 .dark-btn {
-  width: 50px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 84px;
+  height: 84px;
   cursor: pointer;
+  margin-bottom: 16px;
+  margin-top: -16px;
 }
 .home-1 .dark-btn:hover {
-  background-color: #66B200;
+  background-color: var(--theme-primary);
 }
 
 .dark-btn.dark-btn-2 {
@@ -1906,16 +1956,16 @@ textarea:focus::placeholder {
   font-weight: 500;
   display: inline-block;
   text-transform: capitalize;
-  color: #1a1a1a;
+  color:  var(--common-white);
   height: 50px;
   width: 133px;
-  border: 1px solid #44566c;
+  border: 1px solid var(--common-white);
   border-radius: 12px;
-  background-color: var(--light-white-2);
+  background-color:  var(--theme-primary);
 }
 .form-btn:hover {
-  background-color: var(--theme-primary);
-  border-color: var(--theme-primary);
+  background-color: var(--highlight-color);
+  border-color: var(--highlight-color);
   color: #fff;
 }
 
@@ -1923,7 +1973,7 @@ textarea:focus::placeholder {
   background: linear-gradient(
     97deg,
    var(--theme-primary) 0%,
-    #2E7D32 100%
+    var(--theme-secondary) 100%
   );
   border-color: transparent;
 }
@@ -1932,7 +1982,7 @@ textarea:focus::placeholder {
   background: linear-gradient(
     97deg,
    var(--theme-primary) 0%,
-    #2E7D32 100%
+    var(--theme-secondary) 100%
   );
   border-color: transparent;
 }
@@ -1984,7 +2034,7 @@ textarea:focus::placeholder {
 .page-title {
   position: relative;
   display: inline-block;
-  font-family: Roboto Slab, serif;
+  font-family: Chakra Petch, serif;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px),
   lg,
@@ -2120,7 +2170,7 @@ textarea:focus::placeholder {
   background: linear-gradient(
     97deg,
    var(--theme-primary) 0%,
-    #2E7D32 100%
+    var(--theme-secondary) 100%
   );
 }
 @media (max-width: 767px) {
@@ -2154,7 +2204,7 @@ textarea:focus::placeholder {
   background: linear-gradient(
     97deg,
    var(--theme-primary) 0%,
-    #2E7D32 100%
+    var(--theme-secondary) 100%
   );
 }
 
@@ -2206,7 +2256,7 @@ textarea:focus::placeholder {
   display: inline-flex;
   width: 26px;
   height: 26px;
-  background: linear-gradient(180deg, #66B200 0%, #e12a72 100%);
+  background: linear-gradient(180deg, var(--theme-primary) 0%, #e12a72 100%);
   border-radius: 50%;
   text-align: center;
   justify-content: center;
@@ -2216,7 +2266,7 @@ textarea:focus::placeholder {
   overflow: hidden;
 }
 .techfee-header-menu-btn .menu-btn:hover {
-  background: linear-gradient(180deg, #66B200 0%, #66B200 100%);
+  background: linear-gradient(180deg, var(--theme-primary) 0%, var(--theme-primary) 100%);
 }
 
 .menu-btn span {
@@ -2237,7 +2287,7 @@ textarea:focus::placeholder {
 }
 
 .menu-btn.active {
-  background: linear-gradient(180deg, #66B200 0%, #66B200 100%);
+  background: linear-gradient(180deg, var(--theme-primary) 0%, var(--theme-primary) 100%);
 }
 
 .menu-btn.active span:nth-child(1) {
@@ -2297,10 +2347,10 @@ textarea:focus::placeholder {
   margin-right: 8px;
 }
 .mobile-menu-wrap .mobile-menu .mean-bar .mean-nav ul li a:hover {
-  color: var(--theme-secondary);
+  color: var(--theme-primary)
 }
 .mobile-menu-wrap .mobile-menu .mean-bar .mean-nav ul li a:hover span svg * {
-  fill: var(--theme-secondary);
+  fill: var(--theme-primary)
 }
 @media (max-width: 767px) {
   .mobile-menu-wrap .mobile-menu .mean-bar .mean-nav ul li {
@@ -2308,7 +2358,7 @@ textarea:focus::placeholder {
   }
 }
 .mobile-menu-wrap .mobile-menu .mean-bar .mean-nav ul li:is(.active) a {
-  color: var(--theme-secondary);
+  color: var(--theme-primary)
 }
 .mobile-menu-wrap
   .mobile-menu
@@ -2320,7 +2370,7 @@ textarea:focus::placeholder {
   span
   svg
   * {
-  fill: var(--theme-secondary);
+  fill: var(--theme-primary)
 }
 
 .mobile-menu.active {
@@ -2467,7 +2517,7 @@ textarea:focus::placeholder {
   background: linear-gradient(
     97deg,
    var(--theme-primary) 0%,
-    #2E7D32 100%
+    var(--theme-secondary) 100%
   );
 }
 .main-style-2 .techfee-main-menu-wrap .bastami-main-menu ul li a span {
@@ -2483,7 +2533,7 @@ textarea:focus::placeholder {
   background: linear-gradient(
     97deg,
    var(--theme-primary) 0%,
-    #2E7D32 100%
+    var(--theme-secondary) 100%
   );
 }
 
@@ -2551,14 +2601,14 @@ textarea:focus::placeholder {
   background: linear-gradient(
     97deg,
    var(--theme-primary) 0%,
-    #2E7D32 100%
+    var(--theme-secondary) 100%
   );
 }
 .home-3 .bastami-main-menu ul li:is(.active) {
   background: linear-gradient(
     97deg,
    var(--theme-primary) 0%,
-    #2E7D32 100%
+    var(--theme-secondary) 100%
   );
 }
 
@@ -2574,7 +2624,7 @@ textarea:focus::placeholder {
   background: linear-gradient(
     97deg,
    var(--theme-primary) 0%,
-    #2E7D32 100%
+    var(--theme-secondary) 100%
   );
 }
 
@@ -2621,13 +2671,13 @@ textarea:focus::placeholder {
   }
 }
 .home-1 .techfee-header-menu-btn .menu-btn {
-  background: #66B200;
+  background: var(--theme-primary);
 }
 .home-1 .mobile-menu-wrap .mobile-menu .mean-bar .mean-nav ul li:is(.active) a {
-  color: #66B200;
+  color: var(--theme-primary);
 }
 .home-1 .mobile-menu-wrap .mobile-menu .mean-bar .mean-nav ul li:hover a {
-  color: #66B200;
+  color: var(--theme-primary);
 }
 .home-1
   .mobile-menu-wrap
@@ -2664,7 +2714,7 @@ textarea:focus::placeholder {
   span
   svg
   * {
-  fill: #66B200;
+  fill: var(--theme-primary);
 }
 .home-1
   .mobile-menu-wrap
@@ -2677,7 +2727,7 @@ textarea:focus::placeholder {
   span
   svg
   * {
-  fill: #66B200;
+  fill: var(--theme-primary);
 }
 
 /*
@@ -2693,8 +2743,6 @@ textarea:focus::placeholder {
   text-align: center;
   padding: 40px 30px;
   margin-left: -100px;
-  position: sticky;
-  top: 100px;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .techfee-parsonal-info-area {
@@ -2761,11 +2809,11 @@ textarea:focus::placeholder {
   object-fit: cover;
 }
 .techfee-parsonal-info-name {
-  font-size: 26px;
+  font-size: 28px;
   text-transform: capitalize;
-  font-weight: 500;
-  color: var(--common-black);
-  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  color: var(--theme-primary);
+  font-family: "Chakra Petch", serif;
   margin-bottom: 8px;
 }
 .btn-2.circle {
@@ -2790,9 +2838,9 @@ textarea:focus::placeholder {
   display: inline-block;
   font-weight: 500;
   text-transform: capitalize;
-  color: var(--common-black);
+  color: var(--common-white);
   font-family: "Chakra Petch", sans-serif;
-  background-color: var(--light-white);
+  background-color: var(--highlight-light);
   border-radius: 5px;
   padding: 4px 20px;
 }
@@ -2951,7 +2999,7 @@ textarea:focus::placeholder {
   background: linear-gradient(
     97deg,
    var(--theme-primary) 0%,
-    #2E7D32 100%
+    var(--theme-secondary) 100%
   );
 }
 
@@ -2976,7 +3024,7 @@ textarea:focus::placeholder {
   background: linear-gradient(
     97deg,
    var(--theme-primary) 0%,
-    #2E7D32 100%
+    var(--theme-secondary) 100%
   );
 }
 
@@ -2998,14 +3046,14 @@ textarea:focus::placeholder {
   background: linear-gradient(
     97deg,
    var(--theme-primary) 0%,
-    #2E7D32 100%
+    var(--theme-secondary) 100%
   );
 }
 .home-3 .techfee-parsonal-info-contact-item .icon:hover {
   background: linear-gradient(
     97deg,
    var(--theme-primary) 0%,
-    #2E7D32 100%
+    var(--theme-secondary) 100%
   );
 }
 
@@ -3200,19 +3248,19 @@ textarea:focus::placeholder {
 }
 
 .progress-bg-1 {
-  background-color: #ff6464;
+  background-color: var(--primary-color-2);
 }
 
 .progress-bg-2 {
-  background-color: #9272d4;
+  background-color: var(--primary-2-darkest);
 }
 
 .progress-bg-3 {
-  background-color: #5185d4;
+  background-color: var(--primary-2-dark);
 }
 
 .progress-bg-4 {
-  background-color: #ca56f2;
+  background-color: var(--primary-2-light);
 }
 
 .knowledeges-item-wrap .gk-item {
@@ -3480,7 +3528,7 @@ textarea:focus::placeholder {
 .portfolio-modal-box .modal-dialog .modal-content .modal-body .blog-title {
   font-size: 28px;
   text-align: center;
-  color: #66B200;
+  color: var(--theme-primary);
   margin-bottom: 35px;
 }
 @media (max-width: 767px) {
@@ -3571,7 +3619,7 @@ textarea:focus::placeholder {
   .portfolio-modal-table
   .portfolio-modal-table-text
   a:hover {
-  color: #66B200;
+  color: var(--theme-primary);
 }
 .portfolio-modal-box
   .modal-dialog
@@ -3605,23 +3653,23 @@ textarea:focus::placeholder {
   }
 }
 .page-wrapper-2 .fillter-btn-wrap .fillter-btn:hover {
-  color: #66B200;
+  color: var(--theme-primary);
 }
 .page-wrapper-2 .fillter-btn-wrap .fillter-btn.is-checked {
-  color: #66B200;
+  color: var(--theme-primary);
 }
 .page-wrapper-2 .fillter-item .item-title:hover {
-  color: #66B200;
+  color: var(--theme-primary);
 }
 
 .home-3 .fillter-btn-wrap .fillter-btn:is(.is-checked) {
-  color: #66B200;
+  color: var(--theme-primary);
 }
 .home-3 .fillter-btn-wrap .fillter-btn:hover {
-  color: #66B200;
+  color: var(--theme-primary);
 }
 .home-3 .fillter-item .item-title:hover {
-  color: #66B200;
+  color: var(--theme-primary);
 }
 
 /*
@@ -3859,7 +3907,7 @@ textarea:focus::placeholder {
 .h1-modal-box .modal-dialog .modal-content .modal-body .h1-modal-comment-item {
   display: flex;
   gap: 30px;
-  border: 1px solid #66B200;
+  border: 1px solid var(--theme-primary);
   border-radius: 15px;
   padding: 20px;
   margin-top: 50px;
@@ -3946,7 +3994,7 @@ textarea:focus::placeholder {
   .h1-modal-comment-item
   .content
   .reply-btn:hover {
-  color: #66B200;
+  color: var(--theme-primary);
 }
 .h1-modal-box
   .modal-dialog
@@ -3994,7 +4042,7 @@ textarea:focus::placeholder {
   outline: none;
   padding: 8px 20px;
   border-radius: 20px;
-  background: linear-gradient(180deg, #66B200 0%, #e12a72 100%);
+  background: linear-gradient(180deg, var(--theme-primary) 0%, #e12a72 100%);
   color: white;
 }
 .h1-modal-box
@@ -4003,20 +4051,20 @@ textarea:focus::placeholder {
   .modal-body
   .h1-modal-comment-box
   button:hover {
-  background: linear-gradient(80deg, #66B200 0%, #e12a72 100%);
+  background: linear-gradient(80deg, var(--theme-primary) 0%, #e12a72 100%);
 }
 
 .page-wrapper-2 .blog-slider-wrap .blog-progation span {
-  border: 1px solid #66B200 !important;
+  border: 1px solid var(--theme-primary) !important;
 }
 .page-wrapper-2
   .blog-slider-wrap
   .blog-progation
   span:is(.swiper-pagination-bullet-active) {
-  background-color: #66B200;
+  background-color: var(--theme-primary);
 }
 .page-wrapper-2 .blog-slider-single .blog-title:hover {
-  color: #66B200;
+  color: var(--theme-primary);
 }
 
 .home-3 .blog-slider-wrap .blog-progation span {
@@ -4029,7 +4077,7 @@ textarea:focus::placeholder {
   background-color: #f95054;
 }
 .home-3 .blog-slider-single .blog-title:hover {
-  color: #66B200;
+  color: var(--theme-primary);
 }
 
 /*
@@ -4056,7 +4104,6 @@ textarea:focus::placeholder {
   font-size: 25px;
   font-weight: 400;
   color: var(--body-text);
-  text-transform: capitalize;
   margin-bottom: 13px;
 }
 .contact-area .contact-title-b {
@@ -4295,7 +4342,7 @@ textarea:focus::placeholder {
   text-transform: capitalize;
   color: #000;
   line-height: 1.33;
-  font-family: "Roboto Slab", serif;
+  font-family: "Chakra Petch", serif;
   margin-bottom: 15px;
 }
 @media (max-width: 767px) {
@@ -4461,7 +4508,7 @@ textarea:focus::placeholder {
   background: linear-gradient(
     97deg,
    var(--theme-primary) 0%,
-    #2E7D32 100%
+    var(--theme-secondary) 100%
   );
   color: #fff;
 }
@@ -4588,7 +4635,7 @@ textarea:focus::placeholder {
   background: linear-gradient(
     97deg,
    var(--theme-primary) 0%,
-    #2E7D32 100%
+    var(--theme-secondary) 100%
   );
   color: #fff;
   border-color: transparent;
@@ -4748,7 +4795,7 @@ textarea:focus::placeholder {
   background: linear-gradient(
     97deg,
    var(--theme-primary) 0%,
-    #2E7D32 100%
+    var(--theme-secondary) 100%
   );
   color: #fff;
 }
@@ -4807,13 +4854,13 @@ textarea:focus::placeholder {
   color: #fff;
 }
 .dark-theme .page-wrapper .bastami-main-menu ul li.active {
-  background-color: #66B200;
+  background-color: var(--theme-primary);
 }
 .dark-theme .page-wrapper .bastami-main-menu ul li:hover a {
   color: #fff;
 }
 .dark-theme .page-wrapper .bastami-main-menu ul li:hover {
-  background-color: #66B200;
+  background-color: var(--theme-primary);
 }
 .dark-theme .page-wrapper .techfee-what-do-item,
 .dark-theme .page-wrapper .techfee-card-item,
@@ -4830,7 +4877,7 @@ textarea:focus::placeholder {
   background-color: transparent;
 }
 .dark-theme .page-wrapper .techfee-parsonal-info-social-link li a:hover {
-  background-color: #66B200;
+  background-color: var(--theme-primary);
 }
 .dark-theme .page-wrapper .btn-1:hover {
   background-color: #1d1d1d;
@@ -4862,7 +4909,7 @@ textarea:focus::placeholder {
   ul
   li
   a:hover {
-  color: #66B200;
+  color: var(--theme-primary);
 }
 .dark-theme
   .page-wrapper
@@ -4873,7 +4920,7 @@ textarea:focus::placeholder {
   ul
   li.active
   a {
-  color: #66B200;
+  color: var(--theme-primary);
 }
 .dark-theme
   .page-wrapper
@@ -4914,7 +4961,7 @@ textarea:focus::placeholder {
   span
   svg
   * {
-  fill: #66B200;
+  fill: var(--theme-primary);
 }
 .dark-theme
   .page-wrapper
@@ -4928,7 +4975,7 @@ textarea:focus::placeholder {
   span
   svg
   * {
-  fill: #66B200;
+  fill: var(--theme-primary);
 }
 .dark-theme
   .page-wrapper
@@ -5009,7 +5056,7 @@ textarea:focus::placeholder {
   background: linear-gradient(
     97deg,
    var(--theme-primary) 0%,
-    #2E7D32 100%
+    var(--theme-secondary) 100%
   );
 }
 .dark-theme .home-3 .bastami-main-menu ul li:is(.active) a span svg * {
@@ -5025,28 +5072,28 @@ textarea:focus::placeholder {
   background: linear-gradient(
     97deg,
    var(--theme-primary) 0%,
-    #2E7D32 100%
+    var(--theme-secondary) 100%
   );
 }
 .dark-theme .home-3 .bastami-main-menu ul li:is(.active) {
   background: linear-gradient(
     97deg,
    var(--theme-primary) 0%,
-    #2E7D32 100%
+    var(--theme-secondary) 100%
   );
 }
 .dark-theme .home-3 .bastami-main-menu ul li:hover {
   background: linear-gradient(
     97deg,
    var(--theme-primary) 0%,
-    #2E7D32 100%
+    var(--theme-secondary) 100%
   );
 }
 .dark-theme .home-3 .techfee-parsonal-info-contact-item .icon:hover {
   background: linear-gradient(
     97deg,
    var(--theme-primary) 0%,
-    #2E7D32 100%
+    var(--theme-secondary) 100%
   );
 }
 .dark-theme .home-1 .techfee-header-wrap {
@@ -5071,7 +5118,7 @@ textarea:focus::placeholder {
   ul
   li
   a:hover {
-  color: #66B200;
+  color: var(--theme-primary);
 }
 .dark-theme
   .home-1
@@ -5082,7 +5129,7 @@ textarea:focus::placeholder {
   ul
   li.active
   a {
-  color: #66B200;
+  color: var(--theme-primary);
 }
 .dark-theme
   .home-1
@@ -5096,7 +5143,7 @@ textarea:focus::placeholder {
   span
   svg
   * {
-  fill: #66B200;
+  fill: var(--theme-primary);
 }
 .dark-theme
   .home-1
@@ -5110,7 +5157,7 @@ textarea:focus::placeholder {
   span
   svg
   * {
-  fill: #66B200;
+  fill: var(--theme-primary);
 }
 .dark-theme
   .home-1

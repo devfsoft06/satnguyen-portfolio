@@ -6,10 +6,7 @@ export default function Education() {
   return (
     <div className="col-xl-6 col-lg-7">
       <div className="techfee-section-title-wrap mb-20">
-        <h4 className="section-title">
-          <Image width={38} height={23} src="/assets/img/icon/edu-icon.png" alt="icon" />
-          Education
-        </h4>
+        <h4 className="section-title">Education</h4>
       </div>
 
       <div className="techfee-card-wrap">

@@ -11,7 +11,7 @@ export const contactData = [
   },
   {
     id: 2,
-    color: "#2C6B2F",
+    color: "#66B200",
     fontSize: "22px",
     iconClass: "fa-regular fa-envelope-open-text",
     text: {
@@ -21,7 +21,7 @@ export const contactData = [
   },
   {
     id: 3,
-    color: "#9ACD32",
+    color: "#66B200",
     fontSize: "22px",
     iconClass: "fa-solid fa-location-dot",
     text: {
@@ -31,7 +31,7 @@ export const contactData = [
   },
   {
     id: 4,
-    color: "#FF6F00",
+    color: "#66B200",
     fontSize: "22px",
     iconClass: "fa-light fa-calendar-days",
     text: {

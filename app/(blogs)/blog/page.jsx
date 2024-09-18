@@ -7,7 +7,7 @@ import React from "react";
 
 import MenuTwo from "@/components/homes/menus/MenuTwo";
 export const metadata = {
-  title: "Blog-1 || TechFee - Professional portfolio NextJS Template",
+  title: "Blog-1 || Sat Nguyen - Software Engineer",
   description: "Discover Botami,the most impressive portfolio template for work showcase, blog",
 };
 export default function page() {
