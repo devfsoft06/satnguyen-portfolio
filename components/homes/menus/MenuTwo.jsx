@@ -11,16 +11,16 @@ export default function MenuTwo() {
   const [darkMode, setDarkMode] = useState(false);
 
   const addDarkbg = () => {
-    if (document.body.style.backgroundImage != "url(/assets/img/bg/page-bg-dark-1.jpg") {
-      document.body.style.backgroundImage = "url(/assets/img/bg/page-bg-dark-1.jpg";
+    if (document.body.style.backgroundImage != "url(/assets/img/bg/bg-dark.jpg") {
+      document.body.style.backgroundImage = "url(/assets/img/bg/bg-dark.jpg";
 
       setDarkMode(true);
     }
   };
 
   const addlightBg = () => {
-    if (document.body.style.backgroundImage != "url(/assets/img/bg/page-bg-1.jpg)") {
-      document.body.style.backgroundImage = "url(/assets/img/bg/page-bg-1.jpg)";
+    if (document.body.style.backgroundImage != "url(/assets/img/bg/bg.jpg)") {
+      document.body.style.backgroundImage = "url(/assets/img/bg/bg.jpg)";
 
       setDarkMode(false);
     }
@@ -55,8 +55,8 @@ export default function MenuTwo() {
   return (
     <div className="col-xxl-1 d-xxl-block d-none">
       <div className="techfee-main-menu-wrap">
-        <nav className="bastami-main-menu main_menu">
-          <div className="bostami-header-menu-btn text-right">
+        <nav className="techfee-main-menu main_menu">
+          <div className="techfee-header-menu-btn text-right">
             <div className="dark-btn dark-btn-stored mode-btn" onClick={() => handleDarkmode()}>
               {darkMode ? (
                 <i className="sunicon fa-light fa-sun-bright"></i>

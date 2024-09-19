@@ -2246,17 +2246,21 @@ textarea:focus::placeholder {
   border-radius: 12px;
 }
 
-.techfee-header-menu-btn {
+.techfee-header-menu {
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
-.techfee-header-menu-btn .menu-btn {
+.techfee-header-menu-btn {
+  align-items: center;
+  justify-content: flex-end;
+}
+.techfee-header-menu .menu-btn {
   position: relative;
   display: inline-flex;
-  width: 26px;
-  height: 26px;
-  background: linear-gradient(180deg, var(--theme-primary) 0%, #e12a72 100%);
+  width: 32px;
+  height: 32px;
+  background: var(--theme-primary);
   border-radius: 50%;
   text-align: center;
   justify-content: center;
@@ -2265,8 +2269,8 @@ textarea:focus::placeholder {
   transition: 1s;
   overflow: hidden;
 }
-.techfee-header-menu-btn .menu-btn:hover {
-  background: linear-gradient(180deg, var(--theme-primary) 0%, var(--theme-primary) 100%);
+.techfee-header-menu-btn .menu-btn:hover {  
+  background: linear-gradient(180deg, var(--primary-color-1) 0%, var(--theme-primary) 100%);
 }
 
 .menu-btn span {
@@ -2287,7 +2291,7 @@ textarea:focus::placeholder {
 }
 
 .menu-btn.active {
-  background: linear-gradient(180deg, var(--theme-primary) 0%, var(--theme-primary) 100%);
+ background: linear-gradient(180deg, var(--primary-color-1) 0%, var(--theme-primary) 100%);
 }
 
 .menu-btn.active span:nth-child(1) {
@@ -2377,7 +2381,7 @@ textarea:focus::placeholder {
   transform: scaleY(1);
 }
 
-.bastami-main-menu ul li {
+.techfee-main-menu ul li {
   background-color: var(--light-white);
   border-radius: 12px;
   width: 84px;
@@ -2388,65 +2392,65 @@ textarea:focus::placeholder {
   text-align: center;
   transition: 0.3s;
 }
-.bastami-main-menu ul li:not(:last-child) {
+.techfee-main-menu ul li:not(:last-child) {
   margin-bottom: 20px;
 }
-.bastami-main-menu ul li a {
+.techfee-main-menu ul li a {
   display: block;
   font-size: 13px;
   text-transform: capitalize;
   font-weight: 500;
   line-height: 1;
 }
-.bastami-main-menu ul li a span {
+.techfee-main-menu ul li a span {
   display: block;
   margin-bottom: 12px;
 }
-.bastami-main-menu ul li:is(.active) {
+.techfee-main-menu ul li:is(.active) {
   background-color: var(--theme-primary);
 }
-.bastami-main-menu ul li:is(.active) a {
+.techfee-main-menu ul li:is(.active) a {
   color: var(--common-white);
 }
-.bastami-main-menu ul li:is(.active) a span svg * {
+.techfee-main-menu ul li:is(.active) a span svg * {
   fill: var(--common-white);
 }
-.bastami-main-menu ul li:is(.active) a span img {
+.techfee-main-menu ul li:is(.active) a span img {
   filter: brightness(5);
 }
-.bastami-main-menu ul li:hover {
+.techfee-main-menu ul li:hover {
   background-color: var(--theme-primary);
 }
-.bastami-main-menu ul li:hover a {
+.techfee-main-menu ul li:hover a {
   color: var(--common-white);
 }
-.bastami-main-menu ul li:hover a span svg * {
+.techfee-main-menu ul li:hover a span svg * {
   fill: var(--common-white);
 }
-.bastami-main-menu ul li:hover a span img {
+.techfee-main-menu ul li:hover a span img {
   filter: brightness(5);
 }
-.dark-theme .bastami-main-menu ul li a span img {
+.dark-theme .techfee-main-menu ul li a span img {
   filter: invert(0.8) !important;
 }
 
-.dark-theme .bastami-main-menu ul li.active a span img {
+.dark-theme .techfee-main-menu ul li.active a span img {
   filter: brightness(5) !important;
 }
-.dark-theme .home-1 .bastami-main-menu ul li:hover a span img,
-.dark-theme .home-3 .bastami-main-menu ul li:hover a span img {
+.dark-theme .home-1 .techfee-main-menu ul li:hover a span img,
+.dark-theme .home-3 .techfee-main-menu ul li:hover a span img {
   filter: brightness(5) !important;
 }
-.dark-theme .page-wrapper-2 .bastami-main-menu ul li:hover a span img {
+.dark-theme .page-wrapper-2 .techfee-main-menu ul li:hover a span img {
   filter: invert(1) !important;
 }
-.bastami-main-menu ul li a span img {
+.techfee-main-menu ul li a span img {
   width: 20px;
 }
-.bastami-main-menu ul li.active:first-child a span img {
+.techfee-main-menu ul li.active:first-child a span img {
   filter: invert(1) !important;
 }
-.bastami-main-menu ul li:first-child:hover a span img {
+.techfee-main-menu ul li:first-child:hover a span img {
   filter: invert(1);
 }
 .header-right-flex {
@@ -2467,13 +2471,13 @@ textarea:focus::placeholder {
   top: unset;
   display: inline-block;
 }
-.main-style-2 .techfee-main-menu-wrap .bastami-main-menu {
+.main-style-2 .techfee-main-menu-wrap .techfee-main-menu {
   display: inline-block;
 }
-.main-style-2 .techfee-main-menu-wrap .bastami-main-menu ul {
+.main-style-2 .techfee-main-menu-wrap .techfee-main-menu ul {
   display: inline-block;
 }
-.main-style-2 .techfee-main-menu-wrap .bastami-main-menu ul li {
+.main-style-2 .techfee-main-menu-wrap .techfee-main-menu ul li {
   display: inline-block;
   background-color: var(--light-white);
   border-radius: 8px;
@@ -2485,7 +2489,7 @@ textarea:focus::placeholder {
 }
 .main-style-2
   .techfee-main-menu-wrap
-  .bastami-main-menu
+  .techfee-main-menu
   ul
   li:not(:first-child) {
   margin-left: 16px;
@@ -2493,13 +2497,13 @@ textarea:focus::placeholder {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .main-style-2
     .techfee-main-menu-wrap
-    .bastami-main-menu
+    .techfee-main-menu
     ul
     li:not(:first-child) {
     margin-left: 5px;
   }
 }
-.main-style-2 .techfee-main-menu-wrap .bastami-main-menu ul li a {
+.main-style-2 .techfee-main-menu-wrap .techfee-main-menu ul li a {
   background: #fff;
   border-radius: 8px;
   padding: 0px 19px;
@@ -2508,11 +2512,11 @@ textarea:focus::placeholder {
   line-height: 40px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .main-style-2 .techfee-main-menu-wrap .bastami-main-menu ul li a {
+  .main-style-2 .techfee-main-menu-wrap .techfee-main-menu ul li a {
     padding: 0px 10px;
   }
 }
-.main-style-2 .techfee-main-menu-wrap .bastami-main-menu ul li a:hover {
+.main-style-2 .techfee-main-menu-wrap .techfee-main-menu ul li a:hover {
   background:var(--theme-primary);
   background: linear-gradient(
     97deg,
@@ -2520,15 +2524,15 @@ textarea:focus::placeholder {
     var(--theme-secondary) 100%
   );
 }
-.main-style-2 .techfee-main-menu-wrap .bastami-main-menu ul li a span {
+.main-style-2 .techfee-main-menu-wrap .techfee-main-menu ul li a span {
   display: inline-block;
   margin-bottom: 0;
   margin-right: 5px;
 }
-.main-style-2 .techfee-main-menu-wrap .bastami-main-menu ul li a span svg {
+.main-style-2 .techfee-main-menu-wrap .techfee-main-menu ul li a span svg {
   width: 20px;
 }
-.main-style-2 .techfee-main-menu-wrap .bastami-main-menu ul li:is(.active) a {
+.main-style-2 .techfee-main-menu-wrap .techfee-main-menu ul li:is(.active) a {
   background:var(--theme-primary);
   background: linear-gradient(
     97deg,
@@ -2567,7 +2571,7 @@ textarea:focus::placeholder {
   }
 }
 .dark-theme .page-wrapper.page-wrapper-2 {
-  background-image: url(/assets/img/bg/page-bg-dark-2.jpg) !important;
+  background-image: url(/assets/img/bg/bg.jpg) !important;
 }
 .home-3 .text-right {
   text-align: right;
@@ -2590,21 +2594,21 @@ textarea:focus::placeholder {
     display: none;
   }
 }
-.home-3 .bastami-main-menu ul li {
+.home-3 .techfee-main-menu ul li {
   display: inline-flex;
   margin-bottom: 0;
 }
-.home-3 .bastami-main-menu ul li:not(:first-child) {
+.home-3 .techfee-main-menu ul li:not(:first-child) {
   margin-left: 16px;
 }
-.home-3 .bastami-main-menu ul li:hover {
+.home-3 .techfee-main-menu ul li:hover {
   background: linear-gradient(
     97deg,
    var(--theme-primary) 0%,
     var(--theme-secondary) 100%
   );
 }
-.home-3 .bastami-main-menu ul li:is(.active) {
+.home-3 .techfee-main-menu ul li:is(.active) {
   background: linear-gradient(
     97deg,
    var(--theme-primary) 0%,
@@ -4832,7 +4836,7 @@ textarea:focus::placeholder {
   .page-wrapper
   .main-style-2
   .techfee-main-menu-wrap
-  .bastami-main-menu
+  .techfee-main-menu
   ul
   li
   a {
@@ -4846,20 +4850,20 @@ textarea:focus::placeholder {
 .dark-theme .page-wrapper .knowledeges-item-wrap .gk-item {
   background-color: #1c1c1c;
 }
-.dark-theme .page-wrapper .bastami-main-menu ul li,
+.dark-theme .page-wrapper .techfee-main-menu ul li,
 .dark-theme .page-wrapper .techfee-contact-item {
   background-color: #212425;
 }
-.dark-theme .page-wrapper .bastami-main-menu ul li.active a {
+.dark-theme .page-wrapper .techfee-main-menu ul li.active a {
   color: #fff;
 }
-.dark-theme .page-wrapper .bastami-main-menu ul li.active {
+.dark-theme .page-wrapper .techfee-main-menu ul li.active {
   background-color: var(--theme-primary);
 }
-.dark-theme .page-wrapper .bastami-main-menu ul li:hover a {
+.dark-theme .page-wrapper .techfee-main-menu ul li:hover a {
   color: #fff;
 }
-.dark-theme .page-wrapper .bastami-main-menu ul li:hover {
+.dark-theme .page-wrapper .techfee-main-menu ul li:hover {
   background-color: var(--theme-primary);
 }
 .dark-theme .page-wrapper .techfee-what-do-item,
@@ -5013,7 +5017,7 @@ textarea:focus::placeholder {
   .page-wrapper-2
   .main-style-2
   .techfee-main-menu-wrap
-  .bastami-main-menu
+  .techfee-main-menu
   ul
   li
   a
@@ -5029,7 +5033,7 @@ textarea:focus::placeholder {
   .page-wrapper-2
   .main-style-2
   .techfee-main-menu-wrap
-  .bastami-main-menu
+  .techfee-main-menu
   ul
   li
   a
@@ -5059,10 +5063,10 @@ textarea:focus::placeholder {
     var(--theme-secondary) 100%
   );
 }
-.dark-theme .home-3 .bastami-main-menu ul li:is(.active) a span svg * {
+.dark-theme .home-3 .techfee-main-menu ul li:is(.active) a span svg * {
   fill: white;
 }
-.dark-theme .home-3 .bastami-main-menu ul li:hover a span svg * {
+.dark-theme .home-3 .techfee-main-menu ul li:hover a span svg * {
   fill: white;
 }
 .dark-theme .home-3 .techfee-header-wrap {
@@ -5075,14 +5079,14 @@ textarea:focus::placeholder {
     var(--theme-secondary) 100%
   );
 }
-.dark-theme .home-3 .bastami-main-menu ul li:is(.active) {
+.dark-theme .home-3 .techfee-main-menu ul li:is(.active) {
   background: linear-gradient(
     97deg,
    var(--theme-primary) 0%,
     var(--theme-secondary) 100%
   );
 }
-.dark-theme .home-3 .bastami-main-menu ul li:hover {
+.dark-theme .home-3 .techfee-main-menu ul li:hover {
   background: linear-gradient(
     97deg,
    var(--theme-primary) 0%,
@@ -5099,14 +5103,14 @@ textarea:focus::placeholder {
 .dark-theme .home-1 .techfee-header-wrap {
   background: transparent;
 }
-.dark-theme .home-1 .bastami-main-menu ul li.active a span svg * {
+.dark-theme .home-1 .techfee-main-menu ul li.active a span svg * {
   fill: white;
 }
-.dark-theme .home-1 .bastami-main-menu ul li a span svg *,
-.dark-theme .home-3 .bastami-main-menu ul li a span svg * {
+.dark-theme .home-1 .techfee-main-menu ul li a span svg *,
+.dark-theme .home-3 .techfee-main-menu ul li a span svg * {
   fill: #a6a6a6;
 }
-.dark-theme .home-1 .bastami-main-menu ul li:hover a span svg * {
+.dark-theme .home-1 .techfee-main-menu ul li:hover a span svg * {
   fill: white;
 }
 .dark-theme
